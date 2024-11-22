@@ -21,10 +21,18 @@
     }
 
     .header-bar {
+        /* collapse all button */
         background: #111111 !important;
         /* Dark background */
         border-top-left-radius: 10px;
         border-top-right-radius: 10px;
+        margin-right: 48px;
+    }
+
+    .context_module {
+        /* course material in modules */
+        margin-right: 48px;
+        margin-left: 48px;
     }
 
     .item-group-container {
@@ -104,7 +112,16 @@
     }
 
     .css-1gto5tw-tray {
-        background-color: #5d5d5d;
+        /* the slide out tray when you click courses */
+        /* background-color: #5d5d5d; */
+        backdrop-filter: blur(30px);
+        /* background: transparent; */
+        background: rgb(93, 93, 93, 0.1);
+    }
+
+    .css-12w1q2i-baseButton__content {
+        /* x button on slideout tray */
+        color: white;
     }
 
     .css-1b48q7o-view-link:is(a) {
@@ -116,6 +133,7 @@
     }
 
     .ic-app-header__menu-list-item.ic-app-header__menu-list-item--active .ic-app-header__menu-list-link {
+        /* the icon youre on like dashboard */
         background: #5d5d5d;
     }
 
@@ -170,7 +188,10 @@
 
     .ic-Dashboard-header__layout {
         /* dashboard banner */
-        background: #111111;
+        /* background: #111111; */
+        backdrop-filter: blur(30px);
+        /* background: transparent; */
+        background: rgb(93, 93, 93, 0.1);
     }
 
     .PlannerHeader-styles__root {
@@ -190,7 +211,10 @@
 
     .StickyButton-styles__root {
         /* new activity */
-        background-color: #5d5d5d;
+        /* background-color: #5d5d5d; */
+        margin-right: 48px;
+        backdrop-filter: blur(30px);
+        background: rgb(93, 93, 93, 0.1);
     }
 
     /* ################### announcements ################### */
@@ -224,7 +248,6 @@
         background: #a9a9a9;
     }
 
-    .css-1osm78b-view-alert {}
 
     /* ################### announcements ################### */
 
@@ -289,6 +312,23 @@
 
     .element {
         background-color: #5d5d5d;
+    }
+
+    /* dashboard banner */
+    .ic-Layout-contentMain {
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+
+    #dashboard-planner {
+        padding-right: 48px;
+        padding-left: 48px;
+    }
+
+    .large,
+    ic-Dashboard-header__layout {
+        padding-right: 48px;
+        padding-left: 48px;
     }
 
 }
