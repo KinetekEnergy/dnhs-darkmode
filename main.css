@@ -1,0 +1,294 @@
+/* ==UserStyle==
+@name           poway.instructure.com/courses/163525/files/37789565
+@namespace      github.com/openstyles/stylus
+@version        1.0.0
+@description    A new userstyle
+@author         Me
+==/UserStyle== */
+
+@-moz-document url-prefix("https://poway.instructure.com/courses/"), url-prefix("https://poway.instructure.com/") {
+
+    /* Example: Change background and text colors */
+    body {
+        background: #111111 !important;
+        /* Dark background */
+        color: #ffffff !important;
+        /* Light text */
+    }
+
+    a {
+        color: #a9a9a9;
+    }
+
+    .header-bar {
+        background: #111111 !important;
+        /* Dark background */
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+
+    .item-group-container {
+        background: #111111 !important;
+        /* Dark background */
+    }
+
+    .item-group-condensed .ig-header {
+        background: #373737 !important;
+        color: white;
+    }
+
+    .ig-header .name {
+        color: white;
+        text-shadow: 1px 1px 0 rgba(255, 255, 255, 0);
+    }
+
+    .item-group-condensed .ig-row {
+        background: #373737 !important;
+    }
+
+    .ig-list .ig-row {
+        color: white;
+    }
+
+    .ig-list .ig-row a.ig-title {
+        color: #f5f5f5;
+    }
+
+    .ic-app-header {
+        background-color: #373737;
+    }
+
+    .ic-app-header__menu-list-item.ic-app-header__menu-list-item--active .ic-app-header__menu-list-link {
+        background: white;
+    }
+
+    .ic-app-header__logomark-container {
+        background-color: #373737;
+    }
+
+    #breadcrumbs {
+        background-color: rgba(255, 255, 255, 0)
+    }
+
+    #breadcrumbs>ul>li+li:last-of-type a {
+        color: white;
+    }
+
+    .list-view a.active {
+        color: white;
+        border-left: 2px solid white;
+    }
+
+    .btn-link,
+    .Button--link {
+        color: white;
+    }
+
+    .module-sequence-footer .module-sequence-footer-content {
+        background: rgba(255, 255, 255, 0);
+    }
+
+    .Pages {
+        background-color: black !important;
+    }
+
+    .btn,
+    .css-1rpus1y-baseButton__content {
+        color: white;
+        background: rgb(93, 93, 93);
+        border-color: rgba(219, 219, 219, 0);
+    }
+
+    .pages.show .course-title {
+        color: white;
+    }
+
+    .css-1gto5tw-tray {
+        background-color: #5d5d5d;
+    }
+
+    .css-1b48q7o-view-link:is(a) {
+        color: white;
+    }
+
+    .css-1sr6v3o-text {
+        color: #a9a9a9;
+    }
+
+    .ic-app-header__menu-list-item.ic-app-header__menu-list-item--active .ic-app-header__menu-list-link {
+        background: #5d5d5d;
+    }
+
+    .ic-app-header__menu-list-item.ic-app-header__menu-list-item--active .ic-icon-svg {
+        fill: white;
+    }
+
+    body.primary-nav-expanded .ic-app-header__menu-list-item.ic-app-header__menu-list-item--active .menu-item__text {
+        color: white;
+    }
+
+    .css-1vfp3rz-text {
+        color: rgba(219, 219, 219, 0);
+    }
+
+
+    .css-1b48q7o-view-link:is(a):hover,
+    .css-1b48q7o-view-link:is(button):hover,
+    .css-1b48q7o-view-link:is(a):active,
+    .css-1b48q7o-view-link:is(button):active {
+        /* courses > links to the courses */
+        color: white;
+    }
+
+    .Day-styles__root {
+        /* the dashboard section */
+        background: #111111;
+        color: white;
+    }
+
+    .css-1ns2r3i-view-heading {
+        /* the date for assignments */
+        color: white;
+    }
+
+    .PlannerItem-styles__due,
+    .PlannerItem-styles__score,
+    .css-qbjizl-text {
+        /* assignment class and name */
+        color: #a9a9a9;
+    }
+
+    .Grouping-styles__title {
+        /* the mini icon for the assignment */
+        background-color: #5d5d5d;
+        color: white;
+    }
+
+    .Grouping-styles__title::after {
+        background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, #5d5d5d 100%);
+    }
+
+    .ic-Dashboard-header__layout {
+        /* dashboard banner */
+        background: #111111;
+    }
+
+    .PlannerHeader-styles__root {
+        /* dashboard buttons */
+        background: #5d5d5d;
+        border-radius: 5px;
+    }
+
+    .css-1eaecfq-baseButton__content {
+        color: white;
+    }
+
+    .css-p3olqp-baseButton__content {
+        /* today button */
+        background-color: #a9a9a9;
+    }
+
+    .StickyButton-styles__root {
+        /* new activity */
+        background-color: #5d5d5d;
+    }
+
+    /* ################### announcements ################### */
+    .css-1osm78b-view-alert,
+    .css-pkzi3c-view-alert,
+    .ic-notification__content,
+    .notification_account_content {
+        /* announcements */
+        background: #5d5d5d;
+    }
+
+    .css-pkzi3c-view-alert,
+    .ic-notification {
+        border: 2px solid #a9a9a9;
+    }
+
+    .css-1nz9urh,
+    .ic-notification__icon {
+        background: #a9a9a9
+    }
+
+    .css-1nz9urh {
+        border-right: 0.125rem solid rgb(3, 116, 181, 0)
+    }
+
+    .css-pkzi3c-view-alert {
+        color: white;
+    }
+
+    .css-1mnegct-baseButton__content {
+        background: #a9a9a9;
+    }
+
+    .css-1osm78b-view-alert {}
+
+    /* ################### announcements ################### */
+
+    /* ################### Nothing planned banner ################### */
+    .EmptyDays-styles__root {
+        /* Nothing planned banner */
+        background-color: #0D1B2A;
+        border-radius: 5px;
+        padding: 15px;
+        border-bottom: solid 0px;
+    }
+
+    path[fill="#67C1F0"] {
+        fill: #145a32;
+    }
+
+    path[fill="#9BE1A4"] {
+        fill: #196f3d;
+    }
+
+    /* mountains */
+    path[fill="#231F20"] {
+        stroke: #34495e;
+    }
+
+    path[stroke="#231F20"] {
+        stroke: #2c3e50;
+    }
+
+    path[stroke="#C0C6CB"] {
+        stroke: #34495e
+    }
+
+
+    /* hammock */
+    path[stroke="#FDBD99"] {
+        fill: #1c2833;
+    }
+
+    /* cloud */
+    path[fill="#E5E7E9"] {
+        fill: #0d1b2a;
+    }
+
+    path[stroke="#231F20"] {
+        stroke: #0d1b2a !important;
+    }
+
+    /* tree stems */
+    path[stroke="#0E1D25"] {
+        stroke: black;
+    }
+
+    .EmptyDays-styles__root {
+        color: white;
+    }
+
+    /* ################### inbox ################### */
+    .css-vxe90h-view--inlineBlock {
+        background: #5d5d5d;
+    }
+
+    .element {
+        background-color: #5d5d5d;
+    }
+
+}
