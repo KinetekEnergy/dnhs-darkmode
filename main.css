@@ -35,6 +35,7 @@
         margin-left: 48px;
     }
 
+
     .item-group-container {
         background: #111111 !important;
         /* Dark background */
@@ -314,12 +315,8 @@
         background-color: #5d5d5d;
     }
 
-    /* dashboard banner */
-    .ic-Layout-contentMain {
-        padding-right: 0px;
-        padding-left: 0px;
-    }
 
+    /* ################### dashboard top bar ################### */
     #dashboard-planner {
         padding-right: 48px;
         padding-left: 48px;
@@ -329,6 +326,33 @@
     ic-Dashboard-header__layout {
         padding-right: 48px;
         padding-left: 48px;
+    }
+
+    #dashboard_header_container {
+        margin-right: -48px;
+        margin-left: -48px;
+    }
+
+    /* ################### assignment submission ################### */
+    #submit_online_upload_form {
+        background-color: #373737;
+        border-color: transparent;
+        border-radius: 10px;
+        color: white;
+    }
+
+    #submission_comment {
+        background-color: #5d5d5d;
+        color: white;
+    }
+
+    .ui-tabs .ui-tabs-nav {
+        border-bottom-color: transparent;
+    }
+
+    /* ################### upcoming assignments section ################### */
+    .accessible-toggler {
+        color: white;
     }
 
 }
