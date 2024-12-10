@@ -1,5 +1,7 @@
 # DNHS-darkmode
 
+## ⭐ this repo!
+
 ## What this is
 
 This project is a set of css files to add darkmode to certain school sites like MyPlan and Canvas since they don't have a native darkmode of their own. They also introduce some other changes to make the UI much more modern and sleek. However, given that this is not officially supported by these sites, there may be inconsistencies and things may break after some time. Also, some menus may not have a darkmode option because I never use them (although you are free to make a pull request to add the changes in).
