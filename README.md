@@ -8,7 +8,7 @@ This project is a set of css files to add darkmode to certain school sites like 
 
 ## How to use
 
-1. Install [Stylus](https://addons.mozilla.org/en-US/firefox/addon/styl-us/) extension. The link is to for the Firefox Add-ons store, but the extension may be available on other browsers.
+1. Install [Stylus](https://addons.mozilla.org/en-US/firefox/addon/styl-us/) extension. The link is for the Firefox Add-ons store, but the extension may be available on other browsers.
 2. Open the extension.
 3. Click "Write new style as UserCSS"
 4. Paste the CSS in.
