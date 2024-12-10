@@ -23,4 +23,4 @@ Notes: for the MyPlan dark mode, you can choose your own profile picture. It's c
 - canvas.css: turns Canvas into darkmode
 - myplan-login.css: adds a refreshed login page to MyPlan
 - myplan-profile-pic-only.css: lets you upload a custom profile picture to MyPlan since PUSD doesn't let you (only shows up on your computer though)
-- myplan.css: turns MyPlan into darkmode
+- myplan.css: turns MyPlan into darkmode (also comes with the custom profile picture option)
