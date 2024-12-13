@@ -383,4 +383,15 @@ url-prefix("https://poway.instructure.com/") {
         color: white;
         border: 1px solid transparent;
     }
+    
+    /* ################### grades ################### */
+    table.summary td, table.summary tbody th {
+        background-color: transparent;
+    }
+    
+    .ic-Table.ic-Table--hover-row tbody tr:hover, .ic-Table.ic-Table--hover-row tbody tr.ic-Table__row--bg-neutral:hover, .ic-Table.ic-Table--hover-row tbody tr.ic-Table__row--bg-success:hover, .ic-Table.ic-Table--hover-row tbody tr.ic-Table__row--bg-alert:hover, .ic-Table.ic-Table--hover-row tbody tr.ic-Table__row--bg-danger:hover {
+        background-color: #5d5d5d;
+    }
+    
+    
 }
