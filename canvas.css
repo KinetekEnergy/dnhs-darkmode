@@ -393,5 +393,70 @@ url-prefix("https://poway.instructure.com/") {
         background-color: #5d5d5d;
     }
     
+    /* "Submitted!" text     */
+    #right-side .details .header {
+        color: #4bb543;
+    }
     
+    /* submission details pane */
+    #right-side-wrapper {
+        padding: 48px;
+    }
+    
+    /* ################## calendar ###################### */
+    #calendar-app .fc-month-view .fc-body, #calendar-drag-and-drop-container .fc-month-view .fc-body {
+        background-color: #373737;
+    }
+    
+    .fc-unthemed td.fc-today {
+        background: #5d5d5d;
+    }
+    
+    /* mini calendar bg */
+    #minical {
+        background: #373737;
+    }    
+    
+    /* mini calendar numbers */
+    .fc-day-number {
+        color: white;
+    }
+    
+    /* mini calendar month */
+    #minical .fc-toolbar h2, #minical .fc-toolbar .h2 {
+        color: white;
+    }
+    
+    .fc-state-default {
+        color: white;
+    }
+    
+    /* list to choose what events are on calendar */
+    #calendar-list-holder, #other-calendars-list-holder, #undated-events {
+        background-color: #111111;
+    }
+    
+    /* make new event */
+    .ui-widget-overlay {
+        backdrop-filter: blur(30px);
+        /* background: transparent; */
+        background: rgb(93, 93, 93, 0.1);
+    }
+    
+    .ui-dialog .ui-dialog-titlebar.ui-widget-header, .ui-dialog .ui-datepicker .ui-widget-header.ui-datepicker-header, .ui-datepicker .ui-dialog .ui-widget-header.ui-datepicker-header, .ui-tabs .ui-tabs-panel{
+        background: #373737;
+        color: white;
+    }
+    
+    /* new event input label*/
+    .css-j68kdy-formFieldLabel {
+        color: white;
+    }
+    
+    /* new event input*/
+    .css-1mtgjqq-textInput:is(input)[type] {
+        background-color: #5d5d5d;
+        color: white;
+        border-radius: 0.0625rem;
+    }    
 }
