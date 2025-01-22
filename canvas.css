@@ -439,7 +439,6 @@ url-prefix("https://poway.instructure.com/") {
     /* make new event */
     .ui-widget-overlay {
         backdrop-filter: blur(30px);
-        /* background: transparent; */
         background: rgb(93, 93, 93, 0.1);
     }
     
@@ -459,4 +458,27 @@ url-prefix("https://poway.instructure.com/") {
         color: white;
         border-radius: 0.0625rem;
     }    
+    
+    
+    /* ################### announcements ################### */
+    .css-1vqfmz1-view {
+        background-color: #373737;
+        border-style: none;
+    }
+    
+    .css-1vqfmz1-view.css-1vqfmz1-view.css-1vqfmz1-view.css-1vqfmz1-view.css-1vqfmz1-view.css-1vqfmz1-view.css-1vqfmz1-view.css-1vqfmz1-view.css-1vqfmz1-view.css-1vqfmz1-view {
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        border-top-left-radius: 0px;
+        border-top-right-radius: 0px;
+    }
+    
+    .css-sg1rn7-view {
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 0px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        background-color: #373737;
+        padding: 20px !important;
+    }
 }
