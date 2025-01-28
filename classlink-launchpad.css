@@ -16,7 +16,7 @@
     }
 
     #generic_login {
-        background: #2B4162;
+        background: #19273b;
         backdrop-filter: blur(30px);
     }
 
@@ -41,5 +41,18 @@
 
     .lp-login-footer-app-links {
         visibility: hidden;
+    }
+
+    .building-icon {
+        display: none;
+        visibility: hidden;
+    }
+
+    .list-item-left .item-header {
+        color: white;
+    }
+
+    button.dropdown-list-item:hover::before {
+        background-color: #243855;
     }
 }
