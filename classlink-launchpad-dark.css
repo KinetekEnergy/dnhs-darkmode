@@ -1,5 +1,5 @@
 /* ==UserStyle==
-@name           classlink-launchpad
+@name           classlink-launchpad-dark
 @namespace      github.com/openstyles/stylus
 @version        1.0.0
 @description    A new userstyle
@@ -25,13 +25,13 @@
         color: white;
     }
 
-    .search-bar > input {
+    .search-bar>input {
         background: #3b5a88;
         border: 2px solid #082e41;
     }
 
     .lp-login-footer {
-        background-color: #373737;
+        background-color: #19273b;
         padding-bottom: 10px;
     }
 

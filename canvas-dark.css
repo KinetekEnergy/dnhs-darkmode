@@ -1,5 +1,5 @@
 /* ==UserStyle==
-@name           canvas
+@name           canvas-dark
 @namespace      github.com/openstyles/stylus
 @version        1.0.0
 @description    A new userstyle
@@ -7,6 +7,7 @@
 ==/UserStyle== */
 @-moz-document url-prefix("https://poway.instructure.com/courses/"),
 url-prefix("https://poway.instructure.com/") {
+
     /* Example: Change background and text colors */
     body {
         background: #111111 !important;
@@ -78,7 +79,7 @@ url-prefix("https://poway.instructure.com/") {
         background-color: rgba(255, 255, 255, 0)
     }
 
-    #breadcrumbs > ul > li + li:last-of-type a {
+    #breadcrumbs>ul>li+li:last-of-type a {
         color: white;
     }
 
@@ -373,106 +374,118 @@ url-prefix("https://poway.instructure.com/") {
         box-shadow: -10px 0px 15px -5px rgba(0, 0, 0, 0.5);
     }
 
-    div.comment > span.comment_content {
+    div.comment>span.comment_content {
         /* Your CSS styles */
         color: white;
     }
-    
+
     select {
         background-color: #5d5d5d;
         color: white;
         border: 1px solid transparent;
     }
-    
+
     /* ################### grades ################### */
-    table.summary td, table.summary tbody th {
+    table.summary td,
+    table.summary tbody th {
         background-color: transparent;
     }
-    
-    .ic-Table.ic-Table--hover-row tbody tr:hover, .ic-Table.ic-Table--hover-row tbody tr.ic-Table__row--bg-neutral:hover, .ic-Table.ic-Table--hover-row tbody tr.ic-Table__row--bg-success:hover, .ic-Table.ic-Table--hover-row tbody tr.ic-Table__row--bg-alert:hover, .ic-Table.ic-Table--hover-row tbody tr.ic-Table__row--bg-danger:hover {
+
+    .ic-Table.ic-Table--hover-row tbody tr:hover,
+    .ic-Table.ic-Table--hover-row tbody tr.ic-Table__row--bg-neutral:hover,
+    .ic-Table.ic-Table--hover-row tbody tr.ic-Table__row--bg-success:hover,
+    .ic-Table.ic-Table--hover-row tbody tr.ic-Table__row--bg-alert:hover,
+    .ic-Table.ic-Table--hover-row tbody tr.ic-Table__row--bg-danger:hover {
         background-color: #5d5d5d;
     }
-    
+
     /* "Submitted!" text     */
     #right-side .details .header {
         color: #4bb543;
     }
-    
+
     /* submission details pane */
     #right-side-wrapper {
         padding: 48px;
     }
-    
+
     /* ################## calendar ###################### */
-    #calendar-app .fc-month-view .fc-body, #calendar-drag-and-drop-container .fc-month-view .fc-body {
+    #calendar-app .fc-month-view .fc-body,
+    #calendar-drag-and-drop-container .fc-month-view .fc-body {
         background-color: #373737;
     }
-    
+
     .fc-unthemed td.fc-today {
         background: #5d5d5d;
     }
-    
+
     /* mini calendar bg */
     #minical {
         background: #373737;
-    }    
-    
+    }
+
     /* mini calendar numbers */
     .fc-day-number {
         color: white;
     }
-    
+
     /* mini calendar month */
-    #minical .fc-toolbar h2, #minical .fc-toolbar .h2 {
+    #minical .fc-toolbar h2,
+    #minical .fc-toolbar .h2 {
         color: white;
     }
-    
+
     .fc-state-default {
         color: white;
     }
-    
+
     /* list to choose what events are on calendar */
-    #calendar-list-holder, #other-calendars-list-holder, #undated-events {
+    #calendar-list-holder,
+    #other-calendars-list-holder,
+    #undated-events {
         background-color: #111111;
     }
-    
+
     /* make new event */
     .ui-widget-overlay {
         backdrop-filter: blur(30px);
         background: rgb(93, 93, 93, 0.1);
     }
-    
-    .ui-dialog .ui-dialog-titlebar.ui-widget-header, .ui-dialog .ui-datepicker .ui-widget-header.ui-datepicker-header, .ui-datepicker .ui-dialog .ui-widget-header.ui-datepicker-header, .ui-tabs .ui-tabs-panel{
+
+    .ui-dialog .ui-dialog-titlebar.ui-widget-header,
+    .ui-dialog .ui-datepicker .ui-widget-header.ui-datepicker-header,
+    .ui-datepicker .ui-dialog .ui-widget-header.ui-datepicker-header,
+    .ui-tabs .ui-tabs-panel {
         background: #373737;
         color: white;
     }
-    
+
     /* new event input label*/
     .css-j68kdy-formFieldLabel {
         color: white;
     }
-    
+
     /* new event input*/
     .css-1mtgjqq-textInput:is(input)[type] {
         background-color: #5d5d5d;
         color: white;
         border-radius: 0.0625rem;
-    }    
-    
-    
+    }
+
+
     /* ################### announcements ################### */
     .css-1vqfmz1-view {
         background-color: #373737;
         border-style: none;
     }
-    
+
     .css-1vqfmz1-view.css-1vqfmz1-view.css-1vqfmz1-view.css-1vqfmz1-view.css-1vqfmz1-view.css-1vqfmz1-view.css-1vqfmz1-view.css-1vqfmz1-view.css-1vqfmz1-view.css-1vqfmz1-view {
         border-bottom-left-radius: 10px;
         border-bottom-right-radius: 10px;
         border-top-left-radius: 0px;
         border-top-right-radius: 0px;
     }
-    
+
     .css-sg1rn7-view {
         border-bottom-left-radius: 0px;
         border-bottom-right-radius: 0px;

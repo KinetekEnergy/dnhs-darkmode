@@ -1,11 +1,12 @@
 /* ==UserStyle==
-@name           myplan
+@name           myplan-dark
 @namespace      github.com/openstyles/stylus
 @version        1.0.0
 @description    A new userstyle
 @author         Me
 ==/UserStyle== */
 @-moz-document url-prefix("https://myapps.classlink.com/") {
+
     /* Insert code here... */
     /* main bg */
     :root.primary-theme #background-container {
@@ -93,7 +94,8 @@
     .profile-container[_ngcontent-yon-c129],
     .profiles-list[_ngcontent-yon-c129],
     .profile-container[_ngcontent-nal-c129],
-    .profiles-list[_ngcontent-nal-c129], .profile-container {
+    .profiles-list[_ngcontent-nal-c129],
+    .profile-container {
         backdrop-filter: blur(100px) !important;
         background-color: rgba(0, 0, 0, 0) !important;
     }
@@ -135,12 +137,12 @@
         backdrop-filter: blur(10px) !important;
         background: rgba(255, 255, 255, 0.55);
     }
-    
+
     /* accesibiity icon */
     .button.button-primary {
         background-color: #5d5d5d !important;
     }
-    
+
     /* accessibility menu */
     .hidden-right[_ngcontent-lwd-c30] .access-menu[_ngcontent-lwd-c30] {
         background: #5d5d5d !important;
@@ -148,20 +150,22 @@
         border-top-left-radius: 5px;
         border-bottom-left-radius: 5px;
     }
-    
+
     /* edit mode menu bar */
     app-edit-bar {
         background-color: #373737 !important;
         border-top: 1px solid white;
     }
-    
+
     /* edit mode menu bar close button*/
     path[fill="currentColor"] {
         fill: white !important;
     }
-    
+
     /* edit mode menu text */
-    .option-ctnr[_ngcontent-lwd-c130] .option[_ngcontent-lwd-c130], #theme, #addFolder {
+    .option-ctnr[_ngcontent-lwd-c130] .option[_ngcontent-lwd-c130],
+    #theme,
+    #addFolder {
         color: white !important;
     }
 
