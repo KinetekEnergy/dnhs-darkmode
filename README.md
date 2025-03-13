@@ -18,6 +18,10 @@ This project is a set of css files to add darkmode to certain school sites like 
 
 Notes: for the MyPlan dark mode, you can choose your own profile picture. It's currently set to the one that I use personally but it can be changed. To do this, simply convert your image to a Base 64 encoding (there are converters available online) and paste that in the CSS where my profile picture is.
 
+For MyPlan dark mode, you will have to:
+1. Set the theme to "Primary" in the settings
+2. Turn off High Contrast
+
 ## File explanations:
 
 - canvas.css: turns Canvas into darkmode
