@@ -44,6 +44,14 @@
     .app-loader-logo {
         z-index: 999;
     }
+    
+    .sign-in-services {
+        display: none;
+    }
+    
+    .social-link {
+        display: none;
+    }
 
     .app-loader[_ngcontent-hqc-c77] {
         /*         backdrop-filter: blur(10px) !important; */
