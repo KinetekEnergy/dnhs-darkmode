@@ -336,7 +336,8 @@ url-prefix("https://poway.instructure.com/") {
     #submit_online_upload_form {
         background-color: #373737;
         border-color: transparent;
-        border-radius: 10px;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
         color: white;
     }
 
@@ -345,9 +346,49 @@ url-prefix("https://poway.instructure.com/") {
         color: white;
     }
 
+    /* file type tabs */
     .ui-tabs .ui-tabs-nav {
-        border-bottom-color: transparent;
+        background-color: #373737;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        border: none;
     }
+    
+    .ui-tabs .ui-tabs-nav li.ui-tabs-active {
+        background: #a9a9a9;
+        color: white;
+        border: none;
+    }
+    
+    .ui-tabs .ui-tabs-nav li.ui-state-hover, .ui-tabs .ui-tabs-nav li:hover {
+        border-color: transparent;
+        background: #5d5d5d;
+        border: none;
+    }
+    
+    .ui-state-default.ui-corner-top {
+        border-radius: 10px;
+    }
+    
+    .ui-tabs-nav.ui-helper-reset.ui-helper-clearfix.ui-widget-header.ui-corner-all {
+        padding: 10px;
+    }
+    
+    .ui-tabs .ui-tabs-nav li a {
+        color: white;
+    }
+    
+    .css-17ds6fy-view-tag {
+        background-color: #a9a9a9;
+        border: none;
+    }
+    
+    /* submit box */
+    .css-1uzu84j-view {
+        background: none;
+        color: white;
+    }
+
 
     /* ################### upcoming assignments section ################### */
     .accessible-toggler {
