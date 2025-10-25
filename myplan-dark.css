@@ -135,8 +135,157 @@
     /* account settings menu */
     .cl-slideover {
         backdrop-filter: blur(10px) !important;
-        background: rgba(255, 255, 255, 0.55);
+        background: rgba(33, 33, 33, 0.55);
     }
+
+    /* account settings profile text configs */
+    h2[_ngcontent-ng-c2797293323] {
+        color: white;
+    }
+
+    /* settings tabs */
+    .tab.cl-focusable.ng-star-inserted.active,
+    .tab.cl-focusable.ng-star-inserted {
+        color: white
+    }
+
+    /* underline thing under an active tab */
+    .tabs-ctnr .tabs-list>.tab.active::before,
+    .cl-tabs>.tab.active::before {
+        background-color: white;
+    }
+
+    /* settings labels */
+    label {
+        color: white;
+    }
+
+    /* theme preview */
+    .example[_ngcontent-ng-c2188443384] .background-ctnr[_ngcontent-ng-c2188443384] {
+        border-radius: 10px;
+        padding: 30px
+    }
+
+    /* theme selection dropdown activation button */
+    .dropdown-ctnr[_ngcontent-ng-c2308469136] .display[_ngcontent-ng-c2308469136] {
+        background-color: #373737;
+    }
+
+    /* dropdown itself */
+    .cl-dropdown-options[_ngcontent-ng-c2308469136] {
+        background-color: #5d5d5d;
+    }
+
+    /* dropdown item hover effect */
+    .cl-dropdown-options[_ngcontent-ng-c2308469136] .scroller[_ngcontent-ng-c2308469136] .item[_ngcontent-ng-c2308469136]:not(.no-results):hover,
+    .cl-dropdown-options[_ngcontent-ng-c2308469136] .scroller[_ngcontent-ng-c2308469136] .item[_ngcontent-ng-c2308469136]:not(.no-results):focus {
+        background-color: #6d6d6d;
+    }
+
+    /* dropdown item text color (non selected) */
+    .cl-dropdown-options[_ngcontent-ng-c2308469136] .scroller[_ngcontent-ng-c2308469136] .item[_ngcontent-ng-c2308469136] {
+        color: #a9a9a9;
+    }
+
+    /* dropdown item text color (selected) */
+    .cl-dropdown-options[_ngcontent-ng-c2308469136] .scroller[_ngcontent-ng-c2308469136] .item.selected[_ngcontent-ng-c2308469136] {
+        color: white;
+    }
+
+    /* dropdown current item preview for tables */
+    .dropdown-ctnr[_ngcontent-ng-c2308469136] .display[_ngcontent-ng-c2308469136]>p[_ngcontent-ng-c2308469136],
+    .dropdown-ctnr[_ngcontent-ng-c2308469136] .display[_ngcontent-ng-c2308469136]>input[_ngcontent-ng-c2308469136] {
+        color: white;
+    }
+
+    /* theme selection dropdown text */
+    cl-dropdown .display p,
+    cl-dropdown .cl-dropdown-options .item p {
+        color: white;
+    }
+
+    /* app list color in app passwords */
+    .ng-star-inserted {
+        color: white
+    }
+
+    /* search and text in app passwords, auto launch, passkey */
+    [_nghost-ng-c131315826] div.input-ctnr[_ngcontent-ng-c131315826] input[_ngcontent-ng-c131315826] {
+        background-color: #5d5d5d;
+    }
+
+    .cl-register-passkey-cntr .cl-register-passkey-nickname-input input {
+        background-color: #5d5d5d;
+    }
+
+    .cl-table-ctnr[_ngcontent-ng-c2165334606] table[_ngcontent-ng-c2165334606] tbody[_ngcontent-ng-c2165334606] tr.header-row[_ngcontent-ng-c2165334606] th[_ngcontent-ng-c2165334606]>.header-content[_ngcontent-ng-c2165334606]>p[_ngcontent-ng-c2165334606],
+    .cl-table-ctnr[_ngcontent-ng-c2165334606] table[_ngcontent-ng-c2165334606] thead[_ngcontent-ng-c2165334606] tr.header-row[_ngcontent-ng-c2165334606] th[_ngcontent-ng-c2165334606]>.header-content[_ngcontent-ng-c2165334606]>p[_ngcontent-ng-c2165334606] {
+        color: white;
+    }
+
+    /* app table hover */
+    .cl-table-ctnr[_ngcontent-ng-c2165334606] table[_ngcontent-ng-c2165334606] tbody[_ngcontent-ng-c2165334606] tr[_ngcontent-ng-c2165334606]:hover,
+    .cl-table-ctnr[_ngcontent-ng-c2165334606] table[_ngcontent-ng-c2165334606] thead[_ngcontent-ng-c2165334606] tr[_ngcontent-ng-c2165334606]:hover {
+        background-color: #373737;
+    }
+
+    /* app icon has a weird shadow */
+    div.img-border.application.flex-center[_ngcontent-ng-c3398774361] {
+        filter: drop-shadow(0px 0px 0px var(--color-medium))
+    }
+
+    /* autolaunch banner */
+    .cl-slideover .render-ctnr .slideover-content .slideover-info {
+        background-color: #5d5d5d;
+    }
+
+    /* app list in the auto launch settings - remove the weird shadow */
+    div.img-border.application.flex-center[_ngcontent-ng-c3172482625] {
+        filter: drop-shadow(0px 0px 0px var(--color-medium))
+    }
+
+    /* autolaunch banner text */
+    .slideover-info[_ngcontent-ng-c3172482625] h3.autolaunch-heading[_ngcontent-ng-c3172482625] {
+        color: white;
+    }
+
+    /* sign in option cards */
+    .option-ctnr[_ngcontent-ng-c1987688154] .option-item[_ngcontent-ng-c1987688154] .option[_ngcontent-ng-c1987688154] {
+        background-color: #373737;
+    }
+
+    h3 {
+        color: white;
+    }
+
+    /* passkey register */
+    .cl-register-passkey-cntr {
+        background-color: #373737;
+    }
+
+    /* passkey character count in text input */
+    [_nghost-ng-c131315826] div.input-ctnr[_ngcontent-ng-c131315826] .icon-ctnr[_ngcontent-ng-c131315826] .char-limit[_ngcontent-ng-c131315826] {
+        color: white
+    }
+
+    /* passkey nickname input in text input + auto launch & app pwds search */
+    [_nghost-ng-c131315826] div.input-ctnr[_ngcontent-ng-c131315826] input[_ngcontent-ng-c131315826] {
+        color: white
+    }
+
+    /* active sessions table ip address */
+    .cl-table-ctnr[_ngcontent-ng-c2165334606] table[_ngcontent-ng-c2165334606] tbody[_ngcontent-ng-c2165334606] tr[_ngcontent-ng-c2165334606] th[_ngcontent-ng-c2165334606]>.data-content[_ngcontent-ng-c2165334606],
+    .cl-table-ctnr[_ngcontent-ng-c2165334606] table[_ngcontent-ng-c2165334606] tbody[_ngcontent-ng-c2165334606] tr[_ngcontent-ng-c2165334606] td[_ngcontent-ng-c2165334606]>.data-content[_ngcontent-ng-c2165334606],
+    .cl-table-ctnr[_ngcontent-ng-c2165334606] table[_ngcontent-ng-c2165334606] thead[_ngcontent-ng-c2165334606] tr[_ngcontent-ng-c2165334606] th[_ngcontent-ng-c2165334606]>.data-content[_ngcontent-ng-c2165334606],
+    .cl-table-ctnr[_ngcontent-ng-c2165334606] table[_ngcontent-ng-c2165334606] thead[_ngcontent-ng-c2165334606] tr[_ngcontent-ng-c2165334606] td[_ngcontent-ng-c2165334606]>.data-content[_ngcontent-ng-c2165334606] {
+        color: white;
+    }
+
+    /* pageination in table settings */
+    .paginator[_ngcontent-ng-c874118323] .page-display[_ngcontent-ng-c874118323] p[_ngcontent-ng-c874118323] {
+        color: white
+    }
+
 
     /* accesibiity icon */
     .button.button-primary {
