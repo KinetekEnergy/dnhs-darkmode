@@ -25,6 +25,12 @@
         background: #111111 !important;
     }
 
+    /* blur bg for an open folder*/
+    .my-apps-modal.ng-tns-c855683144-16.ng-trigger.ng-trigger-openClose.ng-star-inserted {
+        backdrop-filter: blur(100px);
+        background-color: rgba(0, 0, 0, 0);
+    }
+
     /* the big app icon bgs */
     application {
         background: #5d5d5d !important;
@@ -163,7 +169,8 @@
     /* theme preview */
     .example[_ngcontent-ng-c2188443384] .background-ctnr[_ngcontent-ng-c2188443384] {
         border-radius: 10px;
-        padding: 30px
+        padding: 30px;
+        background-color: black;
     }
 
     /* theme selection dropdown activation button */
@@ -293,7 +300,8 @@
     }
 
     /* accessibility menu */
-    .hidden-right[_ngcontent-lwd-c30] .access-menu[_ngcontent-lwd-c30] {
+    .hidden-right[_ngcontent-lwd-c30] .access-menu[_ngcontent-lwd-c30],
+    .hidden-right[_ngcontent-ng-c4223900378] .access-menu[_ngcontent-ng-c4223900378] {
         background: #5d5d5d !important;
         border: 0px solid var(--color-primary);
         border-top-left-radius: 5px;
@@ -303,7 +311,13 @@
     /* edit mode menu bar */
     app-edit-bar {
         background-color: #373737 !important;
-        border-top: 1px solid white;
+        border-top: 1px solid #a9a9a9;
+    }
+
+    /* theme quick changer in edit mode */
+    .option-ctnr[_ngcontent-ng-c4265012791] .option[_ngcontent-ng-c4265012791]:hover,
+    button.close:hover::before {
+        background-color: #5d5d5d;
     }
 
     /* edit mode menu bar close button*/
