@@ -6,7 +6,7 @@
 @author         Me
 ==/UserStyle== */
 @-moz-document url-prefix("https://poway.instructure.com/courses/"),
-url-prefix("https://poway.instructure.com/") {
+url-prefix("https://poway.instructure.com/"), url-prefix("https://extcanvas.ucsd.edu/courses/") {
 
     /* Example: Change background and text colors */
     body {
@@ -27,6 +27,16 @@ url-prefix("https://poway.instructure.com/") {
         border-top-left-radius: 10px;
         border-top-right-radius: 10px;
         margin-right: 48px;
+    }
+
+    /* underline underneat course navigation breadcrumb */
+    .ic-app-nav-toggle-and-crumbs {
+        border-bottom: 1px solid #5d5d5d;
+    }
+
+    /* underline above previous/next buttons */
+    .module-sequence-footer .module-sequence-footer-content {
+        border-top: 1px solid #5d5d5d;
     }
 
     .context_module {
@@ -120,17 +130,20 @@ url-prefix("https://poway.instructure.com/") {
         background: rgb(93, 93, 93, 0.1);
     }
 
-    .css-12w1q2i-baseButton__content {
+    /* slide out tray links */
+    .css-1fu6hu0-view-link {
+        color: white !important;
+    }
+
+    /* course description */
+    .css-8bodfv-text {
+        color: #a9a9a9;
+    }
+
+    .css-12w1q2i-baseButton__content,
+    .css-1e1ui47-baseButton__content {
         /* x button on slideout tray */
         color: white;
-    }
-
-    .css-1b48q7o-view-link:is(a) {
-        color: white;
-    }
-
-    .css-1sr6v3o-text {
-        color: #a9a9a9;
     }
 
     .ic-app-header__menu-list-item.ic-app-header__menu-list-item--active .ic-app-header__menu-list-link {
@@ -306,13 +319,41 @@ url-prefix("https://poway.instructure.com/") {
     }
 
     /* ################### inbox ################### */
-    .css-vxe90h-view--inlineBlock {
+    .css-vxe90h-view--inlineBlock,
+    .css-11bomnh-view--inlineBlock {
         background: #5d5d5d;
+        border-color: transparent;
     }
 
     .element {
         background-color: #5d5d5d;
     }
+
+    /* filters */
+    .css-jwt7s2-textInput__facade {
+        background: #a8a9a9;
+        color: white;
+    }
+
+    /* mails */
+    .css-xfzqo8-view {
+        border-color: transparent;
+    }
+
+    /* selected mail */
+    .css-ri4r20-view:hover,
+    .css-ri4r20-view:active {
+        background: #5d5d5d;
+    }
+
+    .css-hh3rmq-view:hover,
+    .css-hh3rmq-view:active {
+        background: #5d5d5d;
+    }
+
+
+
+
 
 
     /* ################### dashboard top bar ################### */
@@ -353,41 +394,44 @@ url-prefix("https://poway.instructure.com/") {
         border-top-right-radius: 10px;
         border: none;
     }
-    
+
     .ui-tabs .ui-tabs-nav li.ui-tabs-active {
         background: #a9a9a9;
         color: white;
         border: none;
     }
-    
-    .ui-tabs .ui-tabs-nav li.ui-state-hover, .ui-tabs .ui-tabs-nav li:hover {
+
+    .ui-tabs .ui-tabs-nav li.ui-state-hover,
+    .ui-tabs .ui-tabs-nav li:hover {
         border-color: transparent;
         background: #5d5d5d;
         border: none;
     }
-    
+
     .ui-state-default.ui-corner-top {
         border-radius: 10px;
     }
-    
+
     .ui-tabs-nav.ui-helper-reset.ui-helper-clearfix.ui-widget-header.ui-corner-all {
         padding: 10px;
     }
-    
+
     .ui-tabs .ui-tabs-nav li a {
         color: white;
     }
-    
+
     .css-17ds6fy-view-tag {
         background-color: #a9a9a9;
         border: none;
     }
-    
+
     /* submit box */
     .css-1uzu84j-view {
         background: none;
         color: white;
     }
+
+
 
 
     /* ################### upcoming assignments section ################### */
@@ -410,7 +454,7 @@ url-prefix("https://poway.instructure.com/") {
     .submission-details-comments .comments {
         background-color: #5d5d5d;
         color: white !important;
-        border-radius: 15px;
+        /*         border-radius: 15px; */
         border-color: transparent;
         box-shadow: -10px 0px 15px -5px rgba(0, 0, 0, 0.5);
     }
@@ -419,6 +463,21 @@ url-prefix("https://poway.instructure.com/") {
         /* Your CSS styles */
         color: white;
     }
+
+    .file-upload-submission-table {
+        background-color: #5d5d5d;
+    }
+
+    .file-upload-submission {
+        background-color: #5d5d5d !important;
+    }
+
+
+    /* write a comment button */
+    .ic-Input.grading_comment {
+        background: #a9a9a9;
+    }
+
 
     select {
         background-color: #5d5d5d;
@@ -511,6 +570,61 @@ url-prefix("https://poway.instructure.com/") {
         background-color: #5d5d5d;
         color: white;
         border-radius: 0.0625rem;
+    }
+
+    /* ################## discussion post ###################### */
+    /* discussion bar with buttons and sorting */
+    .css-1n94jrf-view {
+        background: #373737;
+        padding: 10px !important;
+        border-radius: 0.25rem;
+        border-color: #5d5d5d !important;
+        border-width: 0.0625rem !important;
+        border-style: solid;
+    }
+
+    /* discussion info banner (ex: instructor can see edits) */
+    .css-19nkh2g-view-alert {
+        background: #373737;
+        color: white;
+    }
+
+    /* discussion info banner close button hover */
+    .css-1u2xr1n-view--inlineBlock-baseButton:hover>[class$="-baseButton__content"] {
+        background: #5d5d5d;
+    }
+
+    /* discussion post itself */
+    .css-fkmnqn-view {
+        background: #373737;
+        border-color: #5d5d5d;
+    }
+
+    /* discussion post expand threads and view split screen button + previous/next buttons */
+    .css-1ta5ds2-baseButton__content {
+        background-color: #5d5d5d;
+        color: white;
+        border-color: #373737;
+    }
+
+    /* discussion textbox background stuff: */
+    .canvas-rce__skins--root,
+    .tox:not(.tox-tinymce-inline) .tox-editor-header,
+    .tox .tox-menubar,
+    .tox .tox-toolbar-overlord,
+    .tox .tox-toolbar,
+    .tox .tox-toolbar__overflow,
+    .tox .tox-toolbar__primary {
+        background-color: #5d5d5d;
+        color: white;
+    }
+
+    /* textbox buttons */
+    .tox-mbtn.tox-mbtn--select,
+    .tox-tbtn.tox-tbtn--select.tox-tbtn--bespoke,
+    .tox .tox-tbtn svg {
+        color: white;
+        fill: white;
     }
 
 
