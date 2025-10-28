@@ -664,6 +664,59 @@ url-prefix("https://poway.instructure.com/"), url-prefix("https://extcanvas.ucsd
         fill: white;
     }
 
+    /* textbox button dropdown buttons/icons */
+    .tox .tox-split-button .tox-tbtn.tox-split-button__chevron,
+    .tox .tox-menu {
+        background-color: #5d5d5d;
+    }
+
+    /* textbox button dropdown buttons/icons hover */
+    .tox .tox-tbtn:hover,
+    .tox .tox-split-button:hover,
+    .tox .tox-tbtn.tox-tbtn--enabled:hover,
+    .tox .tox-split-button .tox-tbtn.tox-split-button__chevron:hover {
+        background-color: #a9a9a9;
+    }
+
+    /* highlight and text color, remove color icon */
+    .tox .tox-swatch--remove svg path {
+        stroke: #dd6053;
+    }
+
+    /* highlight and text color, color palette icon */
+    .tox .tox-swatches__picker-btn svg {
+        stroke: white;
+        fill: white;
+    }
+
+    /* color palette hover */
+    .tox .tox-swatches__picker-btn:hover {
+        background: #373737;
+        border-radius: 10px;
+    }
+
+    /* remove color hover */
+    .tox .tox-swatch--remove:focus,
+    .tox .tox-swatch--remove:hover {
+        box-shadow: 0 0 0 1px transparent inset;
+        background: #373737;
+        border-radius: 10px;
+    }
+
+    /* edit tab dropdown text colors */
+    .tox .tox-collection__item {
+        color: white;
+    }
+
+
+    /* same dropdown - active selected effect (the color of the bg when clicked) */
+    /* when hovering the edit tab buttons,  */
+    .tox .tox-mbtn:hover:not(:disabled),
+    .tox .tox-mbtn:hover:not(:disabled):not(.tox-mbtn--active),
+    .tox .tox-mbtn--active {
+        background: #a9a9a9;
+    }
+
 
     /* ################### announcements ################### */
     .css-1vqfmz1-view {
