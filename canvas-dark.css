@@ -28,33 +28,31 @@ url-prefix("https://poway.instructure.com/"), url-prefix("https://extcanvas.ucsd
         border-top-right-radius: 10px;
         margin-right: 48px;
     }
-
+    
     /* underline underneat course navigation breadcrumb */
     .ic-app-nav-toggle-and-crumbs {
         border-bottom: 1px solid #5d5d5d;
     }
-
+    
     /* underline above previous/next buttons */
     .module-sequence-footer .module-sequence-footer-content {
-        position: relative;
-        border-top: 0;
-        background: #111111 !important;
-        box-shadow: 0px 0px 20px 25px #111111;
-        z-index: 1;
+      position: relative;
+      border-top: 0;
+      background: #111111 !important;
+      box-shadow: 0px 0px 20px 25px #111111;
+      z-index: 1;
     }
 
     .module-sequence-footer .module-sequence-footer-content::before {
-        content: "";
-        position: absolute;
-        top: -50px;
-        /* how far the fade goes up */
-        left: 0;
-        right: 0;
-        height: 60px;
-        background: linear-gradient(to top, rgba(17, 17, 17, 1), rgba(17, 17, 17, 0));
-        pointer-events: none;
-        z-index: -1;
-        /* sit behind the content but above the page background */
+      content: "";
+      position: absolute;
+      top: -50px; /* how far the fade goes up */
+      left: 0;
+      right: 0;
+      height: 60px;
+      background: linear-gradient(to top, rgba(17, 17, 17, 1), rgba(17, 17, 17, 0));
+      pointer-events: none;
+      z-index: -1; /* sit behind the content but above the page background */
     }
 
     /* fixing the offset for the prev/next buttons */
@@ -62,7 +60,7 @@ url-prefix("https://poway.instructure.com/"), url-prefix("https://extcanvas.ucsd
         left: 0px;
         margin-left: 288px;
         width: auto !important;
-
+        
     }
 
     .context_module {
@@ -155,19 +153,18 @@ url-prefix("https://poway.instructure.com/"), url-prefix("https://extcanvas.ucsd
         /* background: transparent; */
         background: rgb(93, 93, 93, 0.1);
     }
-
+    
     /* slide out tray links */
     .css-1fu6hu0-view-link {
         color: white !important;
     }
-
+    
     /* course description */
     .css-8bodfv-text {
         color: #a9a9a9;
     }
 
-    .css-12w1q2i-baseButton__content,
-    .css-1e1ui47-baseButton__content {
+    .css-12w1q2i-baseButton__content, .css-1e1ui47-baseButton__content{
         /* x button on slideout tray */
         color: white;
     }
@@ -345,8 +342,7 @@ url-prefix("https://poway.instructure.com/"), url-prefix("https://extcanvas.ucsd
     }
 
     /* ################### inbox ################### */
-    .css-vxe90h-view--inlineBlock,
-    .css-11bomnh-view--inlineBlock {
+    .css-vxe90h-view--inlineBlock, .css-11bomnh-view--inlineBlock {
         background: #5d5d5d;
         border-color: transparent;
     }
@@ -354,32 +350,63 @@ url-prefix("https://poway.instructure.com/"), url-prefix("https://extcanvas.ucsd
     .element {
         background-color: #5d5d5d;
     }
-
+    
     /* filters */
     .css-jwt7s2-textInput__facade {
         background: #a8a9a9;
         color: white;
     }
-
+    
     /* mails */
     .css-xfzqo8-view {
         border-color: transparent;
     }
-
+    
     /* selected mail */
-    .css-ri4r20-view:hover,
-    .css-ri4r20-view:active {
+    .css-ri4r20-view:hover, .css-ri4r20-view:active {
+        background: #5d5d5d;
+        color: black;
+    }
+    
+    /* mailbox header */
+    .css-d76rpr-view--inlineBlock {
         background: #5d5d5d;
     }
-
-    .css-hh3rmq-view:hover,
-    .css-hh3rmq-view:active {
-        background: #5d5d5d;
+    
+    /* header buttons */
+    .css-av4d9j-baseButton__content {
+        background: #a9a9a9;
     }
-
-
-
-
+    
+    /* dropdown menu when you click on a header button */
+    .css-161w609-menu, .css-1ifcms1-menuItem {
+        background: #a9a9a9;
+    }
+    
+    .css-dxf9i2-contextView__arrow::after {
+        border-bottom-color: #a9a9a9;
+    }
+    
+    .css-1ylbheh-textInput:is(input)[type]:focus {
+        background: #a9a9a9;
+    }
+    
+    /* compose message box */
+    .css-1wf5tpt-modal {
+        background: transparent;
+    }
+    
+    /* message text field */
+    #TextArea___0 {
+        background: #373737;
+        color: white;
+    }
+    
+    /* mail text field headers */
+    .css-1jyml41-text, .css-1rkslnu-checkboxFacade__label {
+        color: white;
+    }
+    
 
 
     /* ################### dashboard top bar ################### */
@@ -420,44 +447,43 @@ url-prefix("https://poway.instructure.com/"), url-prefix("https://extcanvas.ucsd
         border-top-right-radius: 10px;
         border: none;
     }
-
+    
     .ui-tabs .ui-tabs-nav li.ui-tabs-active {
         background: #a9a9a9;
         color: white;
         border: none;
     }
-
-    .ui-tabs .ui-tabs-nav li.ui-state-hover,
-    .ui-tabs .ui-tabs-nav li:hover {
+    
+    .ui-tabs .ui-tabs-nav li.ui-state-hover, .ui-tabs .ui-tabs-nav li:hover {
         border-color: transparent;
         background: #5d5d5d;
         border: none;
     }
-
+    
     .ui-state-default.ui-corner-top {
         border-radius: 10px;
     }
-
+    
     .ui-tabs-nav.ui-helper-reset.ui-helper-clearfix.ui-widget-header.ui-corner-all {
         padding: 10px;
     }
-
+    
     .ui-tabs .ui-tabs-nav li a {
         color: white;
     }
-
+    
     .css-17ds6fy-view-tag {
         background-color: #a9a9a9;
         border: none;
     }
-
+    
     /* submit box */
     .css-1uzu84j-view {
         background: none;
         color: white;
     }
-
-
+    
+    
 
 
     /* ################### upcoming assignments section ################### */
@@ -480,7 +506,7 @@ url-prefix("https://poway.instructure.com/"), url-prefix("https://extcanvas.ucsd
     .submission-details-comments .comments {
         background-color: #5d5d5d;
         color: white !important;
-        /*         border-radius: 15px; */
+/*         border-radius: 15px; */
         border-color: transparent;
         box-shadow: -10px 0px 15px -5px rgba(0, 0, 0, 0.5);
     }
@@ -489,22 +515,22 @@ url-prefix("https://poway.instructure.com/"), url-prefix("https://extcanvas.ucsd
         /* Your CSS styles */
         color: white;
     }
-
+    
     .file-upload-submission-table {
         background-color: #5d5d5d;
     }
-
-    .file-upload-submission {
+    
+    .file-upload-submission  {
         background-color: #5d5d5d !important;
     }
 
-
+    
     /* write a comment button */
     .ic-Input.grading_comment {
         background: #a9a9a9;
     }
-
-
+    
+    
     select {
         background-color: #5d5d5d;
         color: white;
@@ -597,7 +623,7 @@ url-prefix("https://poway.instructure.com/"), url-prefix("https://extcanvas.ucsd
         color: white;
         border-radius: 0.0625rem;
     }
-
+    
     /* ################## discussion post ###################### */
     /* discussion bar with buttons and sorting */
     .css-1n94jrf-view {
@@ -608,138 +634,122 @@ url-prefix("https://poway.instructure.com/"), url-prefix("https://extcanvas.ucsd
         border-width: 0.0625rem !important;
         border-style: solid;
     }
-
+    
     /* discussion info banner (ex: instructor can see edits) */
     .css-19nkh2g-view-alert {
         background: #373737;
         color: white;
     }
-
+    
     /* discussion info banner close button hover */
-    .css-1u2xr1n-view--inlineBlock-baseButton:hover>[class$="-baseButton__content"] {
+    .css-1u2xr1n-view--inlineBlock-baseButton:hover > [class$="-baseButton__content"] {
         background: #5d5d5d;
     }
-
+    
     /* discussion post itself */
     .css-fkmnqn-view {
         background: #373737;
         border-color: #5d5d5d;
     }
-
+    
     /* discussion post expand threads and view split screen button + previous/next buttons */
     .css-1ta5ds2-baseButton__content {
         background-color: #5d5d5d;
         color: white;
         border-color: #373737;
     }
-
+    
     /* discussion board "Found auto-saved content" */
     .css-1wf5tpt-modal {
         backdrop-filter: blur(10px);
         border: 0.0625rem solid #5d5d5d;
     }
-
+    
     .css-1u9u9of-modalHeader {
         background: transparent;
         color: white;
         border-bottom: 0.0625rem solid #5d5d5d;
     }
-
+    
     .css-1q7wie3-modalFooter {
         background: transparent;
     }
-
+    
     .css-1q7wie3-modalFooter {
         border-top: 0.0625rem solid #5d5d5d;
     }
-
+    
     /* do not save hover effect */
-    .css-7hdpcg-view--inlineBlock-baseButton:hover>[class$="-baseButton__content"] {
+    .css-7hdpcg-view--inlineBlock-baseButton:hover > [class$="-baseButton__content"] {
         background: #373737;
     }
-
+    
     /* see above modal text boxes */
-    .css-1ldeboa-view-alert,
-    .css-17v3r4-view--block {
+    .css-1ldeboa-view-alert, .css-17v3r4-view--block {
         background-color: #5d5d5d;
         color: white;
     }
-
+    
     .css-o463bk-mask {
         /* see above - modal casts a white tint behind */
         background: rgba(0, 0, 0, 0.5);
     }
-
+    
     /* discussion textbox background stuff: */
-    .canvas-rce__skins--root,
-    .tox:not(.tox-tinymce-inline) .tox-editor-header,
-    .tox .tox-menubar,
-    .tox .tox-toolbar-overlord,
-    .tox .tox-toolbar,
-    .tox .tox-toolbar__overflow,
-    .tox .tox-toolbar__primary {
+    .canvas-rce__skins--root, .tox:not(.tox-tinymce-inline) .tox-editor-header, .tox .tox-menubar, .tox .tox-toolbar-overlord, .tox .tox-toolbar, .tox .tox-toolbar__overflow, .tox .tox-toolbar__primary {
         background-color: #5d5d5d;
         color: white;
     }
-
+    
     /* textbox buttons */
-    .tox-mbtn.tox-mbtn--select,
-    .tox-tbtn.tox-tbtn--select.tox-tbtn--bespoke,
-    .tox .tox-tbtn svg {
+    .tox-mbtn.tox-mbtn--select, .tox-tbtn.tox-tbtn--select.tox-tbtn--bespoke, .tox .tox-tbtn svg {
         color: white;
         fill: white;
     }
-
+    
     /* textbox button dropdown buttons/icons */
-    .tox .tox-split-button .tox-tbtn.tox-split-button__chevron,
-    .tox .tox-menu {
+    .tox .tox-split-button .tox-tbtn.tox-split-button__chevron, .tox .tox-menu {
         background-color: #5d5d5d;
     }
-
-    /* textbox button dropdown buttons/icons hover */
-    .tox .tox-tbtn:hover,
-    .tox .tox-split-button:hover,
-    .tox .tox-tbtn.tox-tbtn--enabled:hover,
-    .tox .tox-split-button .tox-tbtn.tox-split-button__chevron:hover {
+    
+     /* textbox button dropdown buttons/icons hover */
+    .tox .tox-tbtn:hover, .tox .tox-split-button:hover, .tox .tox-tbtn.tox-tbtn--enabled:hover, .tox .tox-split-button .tox-tbtn.tox-split-button__chevron:hover {
         background-color: #a9a9a9;
     }
-
+    
     /* highlight and text color, remove color icon */
     .tox .tox-swatch--remove svg path {
         stroke: #dd6053;
     }
-
+    
     /* highlight and text color, color palette icon */
     .tox .tox-swatches__picker-btn svg {
         stroke: white;
         fill: white;
     }
-
+    
     /* color palette hover */
     .tox .tox-swatches__picker-btn:hover {
         background: #373737;
         border-radius: 10px;
     }
-
+    
     /* remove color hover */
-    .tox .tox-swatch--remove:focus,
-    .tox .tox-swatch--remove:hover {
+    .tox .tox-swatch--remove:focus, .tox .tox-swatch--remove:hover {
         box-shadow: 0 0 0 1px transparent inset;
         background: #373737;
         border-radius: 10px;
     }
-
+    
     /* edit tab dropdown text colors */
     .tox .tox-collection__item {
         color: white;
     }
-
-
+    
+   
     /* same dropdown - active selected effect (the color of the bg when clicked) */
     /* when hovering the edit tab buttons,  */
-    .tox .tox-mbtn:hover:not(:disabled),
-    .tox .tox-mbtn:hover:not(:disabled):not(.tox-mbtn--active),
-    .tox .tox-mbtn--active {
+    .tox .tox-mbtn:hover:not(:disabled), .tox .tox-mbtn:hover:not(:disabled):not(.tox-mbtn--active), .tox .tox-mbtn--active  {
         background: #a9a9a9;
     }
 
